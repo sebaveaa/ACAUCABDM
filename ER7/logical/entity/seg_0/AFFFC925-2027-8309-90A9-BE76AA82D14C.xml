@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B1A10A74-362C-1B21-4301-772CA9313703" name="Cliente">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AFFFC925-2027-8309-90A9-BE76AA82D14C" name="Tipo_Cerveza">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-10 23:57:09 UTC</createdTime>
+<createdTime>2025-05-11 01:44:15 UTC</createdTime>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Clave" id="866FC96B-1226-9CD8-21A7-92ACFC625F44">
+<Attribute name="Clave" id="AE8A3A7F-B6FA-06FC-7488-245AA0FE6B79">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-10 23:57:09 UTC</createdTime>
+<createdTime>2025-05-11 01:44:27 UTC</createdTime>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
@@ -25,9 +25,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="RIF" id="E2889F78-6D7C-5365-6FB7-8FD3A8471318">
+<Attribute name="Nombre" id="1F91E58E-5C4A-0DD3-4911-EECB10C9D8B0">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-11 00:08:15 UTC</createdTime>
+<createdTime>2025-05-11 01:44:36 UTC</createdTime>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
@@ -35,52 +35,42 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Puntos_acumulados" id="9607DDC2-0C28-28EF-6559-F8AC6427A3BB">
+<Attribute name="Descripción" id="5D9C487D-EE17-A220-1FBC-19E586A15B11">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-11 00:16:14 UTC</createdTime>
+<createdTime>2025-05-11 01:44:47 UTC</createdTime>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Clave1" id="5B8B210E-FEF2-06A2-9B12-DB936866D13D">
+<Attribute name="Clave1" id="DDE91300-8A9C-486F-A133-C4140540B0C1">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-11 00:26:04 UTC</createdTime>
-<generatorID>F98F6709-870D-A859-26B6-1E54430CA9EC</generatorID>
+<createdTime>2025-05-11 01:45:34 UTC</createdTime>
+<generatorID>D7385E53-7B26-D7C3-AD2A-995BD2E79FD4</generatorID>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
 </engineerTo>
-<referedAttribute>2790B237-5C7F-E0AC-02E8-A462783D9C4E</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Clave2" id="B2EFAADD-729D-DB2C-E87D-1A07533C3223">
-<createdBy>sebav</createdBy>
-<createdTime>2025-05-11 01:05:11 UTC</createdTime>
-<generatorID>8080BAAA-CDAA-FEAB-1217-6256E77A4F5C</generatorID>
-<ownerDesignName>ER7</ownerDesignName>
-<engineerTo>
-<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
-</engineerTo>
-<referedAttribute>D99BC882-2C4E-4025-7088-5C993071C758</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>AE8A3A7F-B6FA-06FC-7488-245AA0FE6B79</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="17E10DEC-6B73-8C31-BB60-894C143EC8DD" name="Miembro PK">
+<identifier id="83D56C3D-735D-0154-ABAA-36369CFA6365" name="Tipo_Cerveza PK">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-10 23:57:09 UTC</createdTime>
+<createdTime>2025-05-11 01:44:35 UTC</createdTime>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>866FC96B-1226-9CD8-21A7-92ACFC625F44</attributeRef>
+<attributeRef>AE8A3A7F-B6FA-06FC-7488-245AA0FE6B79</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="aprueba" directorySegmentName="seg_0" id="A0A09D79-C969-7EDD-79DD-5E7A11DA58EB">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 05:35:42 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<sourcePk>896C1699-7AB2-4253-3DBA-D44FE5C0E748</sourcePk>
+<targetPk>E9F13162-CEBE-B2C8-6D9D-38B6DF42112F</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3A7D804E-5448-D412-5AB3-77E34B991299</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>3280D169-94E8-7F7A-25D2-AFCA13B5412A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

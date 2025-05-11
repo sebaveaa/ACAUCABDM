@@ -90,6 +90,28 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Clave2" id="62B73CA4-2A4D-C045-F7AC-FFBE48E54A8F">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 01:05:23 UTC</createdTime>
+<generatorID>C7F925AC-D320-183E-4394-BE40AB42ED6C</generatorID>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<referedAttribute>D99BC882-2C4E-4025-7088-5C993071C758</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_afiliación" id="1D0E8D61-FF38-C191-6896-9A8C8A081E1C">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 01:17:27 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="1CE396E7-36A9-2A39-3F8E-FC533F9F0F04" name="Miembro PK">

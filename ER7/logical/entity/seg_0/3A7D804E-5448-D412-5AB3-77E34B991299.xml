@@ -57,6 +57,66 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Clave2" id="0C39E61B-2E35-00FA-499A-18B9554C6869">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 01:05:13 UTC</createdTime>
+<generatorID>8080BAAA-CDAA-FEAB-1217-6256E77A4F5C</generatorID>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<referedAttribute>866FC96B-1226-9CD8-21A7-92ACFC625F44</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RIF" id="FB908F39-54D3-9478-6CA2-526E136BC0D9">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 01:05:25 UTC</createdTime>
+<generatorID>C7F925AC-D320-183E-4394-BE40AB42ED6C</generatorID>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<referedAttribute>25B61E9F-496E-1A55-C02D-709D78853576</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Clave3" id="6253ADB7-8A4E-332A-2758-5309A5EFE4BF">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 01:05:38 UTC</createdTime>
+<generatorID>10F0BDD5-4CF4-4504-AE74-FFF4EFF6CE79</generatorID>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<referedAttribute>B5E7B489-CAD1-60DE-3A66-2FABF7C64600</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CI" id="E32DE605-6768-4FC0-1480-B57DD2B2CD5A">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 01:05:38 UTC</createdTime>
+<generatorID>10F0BDD5-4CF4-4504-AE74-FFF4EFF6CE79</generatorID>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<referedAttribute>205E5052-77A1-E679-932A-5037DBB30644</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Clave4" id="42E32C4B-9560-B3F8-C883-2306AD8B37A0">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 05:35:46 UTC</createdTime>
+<generatorID>A0A09D79-C969-7EDD-79DD-5E7A11DA58EB</generatorID>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<referedAttribute>E5FC3C19-50F5-1AB7-21BD-A437B4B10FCA</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="896C1699-7AB2-4253-3DBA-D44FE5C0E748" name="Usuario PK">

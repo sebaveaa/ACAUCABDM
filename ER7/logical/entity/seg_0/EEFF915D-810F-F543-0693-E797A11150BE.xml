@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0DB660B6-F0E0-0D3C-B5E0-700C69F1F25E" name="Persona_contacto">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EEFF915D-810F-F543-0693-E797A11150BE" name="Detalle_venta_fisica">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-11 00:22:22 UTC</createdTime>
+<createdTime>2025-05-11 05:05:00 UTC</createdTime>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Clave" id="0C857D3C-646F-40FA-54A2-BA11979DAC6F">
+<Attribute name="Cantidad" id="ECBE582C-F4F8-E6DB-2C1B-26DA8A91FEDF">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-11 00:22:33 UTC</createdTime>
+<createdTime>2025-05-11 05:05:00 UTC</createdTime>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
@@ -25,9 +25,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Primer_nombre" id="EEB765F4-65B8-D818-FF80-9E8062C06C12">
+<Attribute name="Precio_unitario" id="AEF84BFC-3B82-EA57-E730-61B8AFBDFF63">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-11 00:22:45 UTC</createdTime>
+<createdTime>2025-05-11 05:05:00 UTC</createdTime>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
@@ -35,76 +35,69 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Primer_apellido" id="DDF11AC9-7B20-AB20-C22C-240FC1E758AA">
+<Attribute name="Clave3" id="B604EF64-D19F-50A5-EB2E-DB87F95031A7">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-11 00:23:04 UTC</createdTime>
+<createdTime>2025-05-11 05:05:00 UTC</createdTime>
+<generatorID>28454088-975C-A16C-023F-542A72EF1E98</generatorID>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
 </engineerTo>
+<referedAttribute>A2EF6689-3C6B-12E0-B8D3-ECF2A9AE1DE0</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Clave1" id="2ABFC4A3-637A-C339-C59B-08F6639B7842">
+<Attribute name="Clave" id="F3D1E8BE-778B-53DB-0CDE-DBEC3C03519F">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-11 00:29:17 UTC</createdTime>
-<generatorID>4ECDFBEC-E067-9A9F-3397-C1EB46B1D865</generatorID>
+<createdTime>2025-05-11 05:07:21 UTC</createdTime>
+<generatorID>87252FA3-8197-796F-46FF-988BA3A418C1</generatorID>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
 </engineerTo>
-<referedAttribute>866FC96B-1226-9CD8-21A7-92ACFC625F44</referedAttribute>
+<referedAttribute>D862ADEE-8251-D853-8A49-0A33AB415290</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Clave2" id="0C69BE4C-0360-B1AA-BA44-D2E4D060E383">
+<Attribute name="Clave1" id="5DABD11E-C7DD-67C7-751D-4FB798BB3EC6">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-11 00:53:17 UTC</createdTime>
-<generatorID>C8F15397-4592-CE03-FB45-52B68BDA6BC8</generatorID>
+<createdTime>2025-05-11 05:07:21 UTC</createdTime>
+<generatorID>87252FA3-8197-796F-46FF-988BA3A418C1</generatorID>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
 </engineerTo>
-<referedAttribute>2790B237-5C7F-E0AC-02E8-A462783D9C4E</referedAttribute>
+<referedAttribute>045E569D-D4DB-54B1-2F98-22B4FCAE7FFE</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Clave3" id="413FC215-6DAC-153A-8781-A7634741AA5A">
+<Attribute name="Clave2" id="B2AC6AB6-65F6-D46D-3EAD-DE0FA50FDFC6">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-11 00:53:43 UTC</createdTime>
-<generatorID>6F2155A2-DE36-2E02-BC62-27B23900D1FB</generatorID>
+<createdTime>2025-05-11 05:07:21 UTC</createdTime>
+<generatorID>87252FA3-8197-796F-46FF-988BA3A418C1</generatorID>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
 </engineerTo>
-<referedAttribute>4ACE7B66-3460-BF1C-390B-819141B9DF5B</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="RIF" id="6E6BC1E7-58AB-DF77-F8A0-7095204F68A3">
-<createdBy>sebav</createdBy>
-<createdTime>2025-05-11 01:26:50 UTC</createdTime>
-<generatorID>D73AA643-AC0A-34CC-C288-7481059BB2D6</generatorID>
-<ownerDesignName>ER7</ownerDesignName>
-<engineerTo>
-<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
-</engineerTo>
-<referedAttribute>25B61E9F-496E-1A55-C02D-709D78853576</referedAttribute>
+<referedAttribute>C71D1AA7-DA02-59EC-5B23-DAD17D76BF17</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="88AB2401-687F-A33E-6120-EFC493485362" name="Persona_contacto PK">
+<identifier id="DC27F70E-D303-123C-C74E-103EE604431B" name="Venta_evento PK">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-11 00:22:44 UTC</createdTime>
+<createdTime>2025-05-11 05:05:00 UTC</createdTime>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>0C857D3C-646F-40FA-54A2-BA11979DAC6F</attributeRef>
+<attributeRef>B604EF64-D19F-50A5-EB2E-DB87F95031A7</attributeRef>
+<attributeRef>F3D1E8BE-778B-53DB-0CDE-DBEC3C03519F</attributeRef>
+<attributeRef>5DABD11E-C7DD-67C7-751D-4FB798BB3EC6</attributeRef>
+<attributeRef>B2AC6AB6-65F6-D46D-3EAD-DE0FA50FDFC6</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

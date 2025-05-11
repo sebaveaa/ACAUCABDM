@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7CBAD568-5FEA-FD73-17DC-B28A2EB00C5B" name="Departamento">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F57CF016-7F9B-CA5A-CEC2-98B93AC68171" name="Característica">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-10 22:10:36 UTC</createdTime>
+<createdTime>2025-05-11 01:46:24 UTC</createdTime>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Clave" id="FF912A0F-DDEA-66C6-611B-76FC1F999A7E">
+<Attribute name="Clave" id="04248F1B-C240-BC48-269F-27475C05B4DE">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-10 22:10:44 UTC</createdTime>
+<createdTime>2025-05-11 01:46:48 UTC</createdTime>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
@@ -25,38 +25,29 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Nombre" id="15105DB6-61C7-E626-C9EA-13EB32A2E45E">
+<Attribute name="Nombre" id="F6E869FC-1114-6C16-7790-CABDDC424C61">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-10 22:10:52 UTC</createdTime>
+<createdTime>2025-05-11 01:47:18 UTC</createdTime>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Tipo" id="0227F098-FD96-1F2B-4032-916AB82069F7">
-<createdBy>sebav</createdBy>
-<createdTime>2025-05-10 22:10:58 UTC</createdTime>
-<ownerDesignName>ER7</ownerDesignName>
-<engineerTo>
-<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
-</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="084A98A6-AEAE-C927-E539-81DF4D4A38AB" name="Departamento PK">
+<identifier id="520B9D55-EA36-4F23-9DD2-1B6FAD2BA066" name="Característica PK">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-10 22:10:50 UTC</createdTime>
+<createdTime>2025-05-11 01:47:17 UTC</createdTime>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>FF912A0F-DDEA-66C6-611B-76FC1F999A7E</attributeRef>
+<attributeRef>04248F1B-C240-BC48-269F-27475C05B4DE</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

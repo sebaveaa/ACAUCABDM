@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B1A10A74-362C-1B21-4301-772CA9313703" name="Cliente">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8F0011BF-CA97-1CD2-7E5F-39E3FF30DEA1" name="Lugar_tienda">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-10 23:57:09 UTC</createdTime>
+<createdTime>2025-05-11 04:59:01 UTC</createdTime>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Clave" id="866FC96B-1226-9CD8-21A7-92ACFC625F44">
+<Attribute name="Clave" id="96F72917-281F-88C8-5C23-4D50B153636B">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-10 23:57:09 UTC</createdTime>
+<createdTime>2025-05-11 04:59:10 UTC</createdTime>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
@@ -25,9 +25,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="RIF" id="E2889F78-6D7C-5365-6FB7-8FD3A8471318">
+<Attribute name="Nombre" id="3F7DE5B3-0002-CB66-2030-9B4328460FC0">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-11 00:08:15 UTC</createdTime>
+<createdTime>2025-05-11 04:59:16 UTC</createdTime>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
@@ -35,9 +35,9 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Puntos_acumulados" id="9607DDC2-0C28-28EF-6559-F8AC6427A3BB">
+<Attribute name="Tipo" id="73F828C8-79A3-0083-5F38-1BA257542BA0">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-11 00:16:14 UTC</createdTime>
+<createdTime>2025-05-11 04:59:25 UTC</createdTime>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
@@ -45,42 +45,31 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Clave1" id="5B8B210E-FEF2-06A2-9B12-DB936866D13D">
+<Attribute name="Clave1" id="7F9D5C87-2E1C-E518-B7D9-5E77D0D75C94">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-11 00:26:04 UTC</createdTime>
-<generatorID>F98F6709-870D-A859-26B6-1E54430CA9EC</generatorID>
+<createdTime>2025-05-11 05:00:06 UTC</createdTime>
+<generatorID>4848E597-883D-8FB6-BA52-46C055B5BA15</generatorID>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
 </engineerTo>
-<referedAttribute>2790B237-5C7F-E0AC-02E8-A462783D9C4E</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Clave2" id="B2EFAADD-729D-DB2C-E87D-1A07533C3223">
-<createdBy>sebav</createdBy>
-<createdTime>2025-05-11 01:05:11 UTC</createdTime>
-<generatorID>8080BAAA-CDAA-FEAB-1217-6256E77A4F5C</generatorID>
-<ownerDesignName>ER7</ownerDesignName>
-<engineerTo>
-<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
-</engineerTo>
-<referedAttribute>D99BC882-2C4E-4025-7088-5C993071C758</referedAttribute>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>96F72917-281F-88C8-5C23-4D50B153636B</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="17E10DEC-6B73-8C31-BB60-894C143EC8DD" name="Miembro PK">
+<identifier id="9651D621-CA49-0DD8-2A80-D064D6CEC4F9" name="Lugar_tienda PK">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-10 23:57:09 UTC</createdTime>
+<createdTime>2025-05-11 04:59:15 UTC</createdTime>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>866FC96B-1226-9CD8-21A7-92ACFC625F44</attributeRef>
+<attributeRef>96F72917-281F-88C8-5C23-4D50B153636B</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

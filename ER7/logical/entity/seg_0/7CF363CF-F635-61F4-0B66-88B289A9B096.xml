@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7CBAD568-5FEA-FD73-17DC-B28A2EB00C5B" name="Departamento">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7CF363CF-F635-61F4-0B66-88B289A9B096" name="Ing_Cer">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-10 22:10:36 UTC</createdTime>
+<createdTime>2025-05-11 01:41:51 UTC</createdTime>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
@@ -15,48 +15,43 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Clave" id="FF912A0F-DDEA-66C6-611B-76FC1F999A7E">
+<Attribute name="Clave" id="36FB7ED9-04A2-45E8-6974-1C53448858C5">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-10 22:10:44 UTC</createdTime>
+<createdTime>2025-05-11 01:42:16 UTC</createdTime>
+<generatorID>09162BF5-4B38-7DFE-241F-90D807CF5CEF</generatorID>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
 </engineerTo>
+<referedAttribute>29E1889A-9147-BBD2-0987-63282E213618</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Nombre" id="15105DB6-61C7-E626-C9EA-13EB32A2E45E">
+<Attribute name="Clave1" id="28A78335-9537-F327-9857-0DC67F625325">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-10 22:10:52 UTC</createdTime>
+<createdTime>2025-05-11 01:42:31 UTC</createdTime>
+<generatorID>12FBE0DA-3BFE-26A4-D2D3-5267CE9EDF60</generatorID>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Tipo" id="0227F098-FD96-1F2B-4032-916AB82069F7">
-<createdBy>sebav</createdBy>
-<createdTime>2025-05-10 22:10:58 UTC</createdTime>
-<ownerDesignName>ER7</ownerDesignName>
-<engineerTo>
-<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
-</engineerTo>
+<referedAttribute>EE5A8630-06D0-3F34-280E-82C6CDDCF9F0</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="084A98A6-AEAE-C927-E539-81DF4D4A38AB" name="Departamento PK">
+<identifier id="850B4369-EF68-66CC-8851-FA9A9C91DA76" name="Ing_Cer PK">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-10 22:10:50 UTC</createdTime>
+<createdTime>2025-05-11 01:42:16 UTC</createdTime>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>FF912A0F-DDEA-66C6-611B-76FC1F999A7E</attributeRef>
+<attributeRef>36FB7ED9-04A2-45E8-6974-1C53448858C5</attributeRef>
+<attributeRef>28A78335-9537-F327-9857-0DC67F625325</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

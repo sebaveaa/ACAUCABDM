@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7CBAD568-5FEA-FD73-17DC-B28A2EB00C5B" name="Departamento">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3EA493EE-DF44-5432-37D7-79EF3395B5A0" name="Eve-Mie">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-10 22:10:36 UTC</createdTime>
+<createdTime>2025-05-11 02:19:12 UTC</createdTime>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Clave" id="FF912A0F-DDEA-66C6-611B-76FC1F999A7E">
+<Attribute name="Descripción_participación" id="AA658253-5C8F-D63B-B33B-D0E6EF0A1BF4">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-10 22:10:44 UTC</createdTime>
+<createdTime>2025-05-11 02:19:30 UTC</createdTime>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
@@ -25,38 +25,43 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Nombre" id="15105DB6-61C7-E626-C9EA-13EB32A2E45E">
+<Attribute name="Clave" id="7EB3E597-449E-CF85-D1A3-034F1CAC64E5">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-10 22:10:52 UTC</createdTime>
+<createdTime>2025-05-11 02:20:44 UTC</createdTime>
+<generatorID>939902E8-08EF-4A42-91B8-CEA60F88B311</generatorID>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
 </engineerTo>
+<referedAttribute>BD5D004D-940D-6920-CF11-888AE2FBE9F8</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Tipo" id="0227F098-FD96-1F2B-4032-916AB82069F7">
+<Attribute name="RIF" id="E4C6CD5E-AAE3-7915-9EC4-650545B61637">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-10 22:10:58 UTC</createdTime>
+<createdTime>2025-05-11 02:21:51 UTC</createdTime>
+<generatorID>4B5DDAD9-8172-D2ED-6A33-9C0F68E222A1</generatorID>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
 </engineerTo>
+<referedAttribute>25B61E9F-496E-1A55-C02D-709D78853576</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="084A98A6-AEAE-C927-E539-81DF4D4A38AB" name="Departamento PK">
+<identifier id="D5EBC7AD-098A-8F37-1097-24D404120AF7" name="Eve-Pro PK">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-10 22:10:50 UTC</createdTime>
+<createdTime>2025-05-11 02:20:44 UTC</createdTime>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>FF912A0F-DDEA-66C6-611B-76FC1F999A7E</attributeRef>
+<attributeRef>7EB3E597-449E-CF85-D1A3-034F1CAC64E5</attributeRef>
+<attributeRef>E4C6CD5E-AAE3-7915-9EC4-650545B61637</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

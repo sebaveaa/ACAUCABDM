@@ -59,6 +59,18 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="RIF" id="A6FF123A-0377-8539-B8CD-283888CB0402">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 04:43:00 UTC</createdTime>
+<generatorID>B0F15D75-631C-E1FC-63A1-4DB9F4242AF6</generatorID>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<referedAttribute>25B61E9F-496E-1A55-C02D-709D78853576</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="9BECF416-7688-D009-EEE4-B86C807921F1" name="Correo_electrónico PK">

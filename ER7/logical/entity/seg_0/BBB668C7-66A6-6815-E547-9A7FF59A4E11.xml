@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B1A10A74-362C-1B21-4301-772CA9313703" name="Cliente">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BBB668C7-66A6-6815-E547-9A7FF59A4E11" name="Inventario_tienda">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-10 23:57:09 UTC</createdTime>
+<createdTime>2025-05-11 04:55:02 UTC</createdTime>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
@@ -15,9 +15,45 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Clave" id="866FC96B-1226-9CD8-21A7-92ACFC625F44">
+<Attribute name="Clave" id="D862ADEE-8251-D853-8A49-0A33AB415290">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-10 23:57:09 UTC</createdTime>
+<createdTime>2025-05-11 04:55:29 UTC</createdTime>
+<generatorID>BF801FB0-4DB8-A466-5E1E-95433D9C8EF9</generatorID>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<referedAttribute>7EABAFC6-B504-D57B-0723-81153486EB57</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Clave1" id="045E569D-D4DB-54B1-2F98-22B4FCAE7FFE">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 04:55:29 UTC</createdTime>
+<generatorID>BF801FB0-4DB8-A466-5E1E-95433D9C8EF9</generatorID>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<referedAttribute>DC3B47BA-42B1-C4A9-6EAE-B216B301E8EB</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Clave2" id="C71D1AA7-DA02-59EC-5B23-DAD17D76BF17">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 04:55:37 UTC</createdTime>
+<generatorID>BCF35FD1-0E54-60E7-D1BD-FC254B4746AD</generatorID>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<referedAttribute>519AB6E4-78C5-DC16-D861-F9EFFD38F356</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cantidad" id="9479C4D8-12A2-DDBF-6E8B-E49F998B74E7">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 04:58:24 UTC</createdTime>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
@@ -25,62 +61,32 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="RIF" id="E2889F78-6D7C-5365-6FB7-8FD3A8471318">
+<Attribute name="Clave3" id="2E1A1E0D-E342-14AC-55BC-7372A8385079">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-11 00:08:15 UTC</createdTime>
+<createdTime>2025-05-11 05:00:40 UTC</createdTime>
+<generatorID>75921C83-C4AD-9726-8FF1-04BE2974944C</generatorID>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
 </engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Puntos_acumulados" id="9607DDC2-0C28-28EF-6559-F8AC6427A3BB">
-<createdBy>sebav</createdBy>
-<createdTime>2025-05-11 00:16:14 UTC</createdTime>
-<ownerDesignName>ER7</ownerDesignName>
-<engineerTo>
-<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Clave1" id="5B8B210E-FEF2-06A2-9B12-DB936866D13D">
-<createdBy>sebav</createdBy>
-<createdTime>2025-05-11 00:26:04 UTC</createdTime>
-<generatorID>F98F6709-870D-A859-26B6-1E54430CA9EC</generatorID>
-<ownerDesignName>ER7</ownerDesignName>
-<engineerTo>
-<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
-</engineerTo>
-<referedAttribute>2790B237-5C7F-E0AC-02E8-A462783D9C4E</referedAttribute>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Clave2" id="B2EFAADD-729D-DB2C-E87D-1A07533C3223">
-<createdBy>sebav</createdBy>
-<createdTime>2025-05-11 01:05:11 UTC</createdTime>
-<generatorID>8080BAAA-CDAA-FEAB-1217-6256E77A4F5C</generatorID>
-<ownerDesignName>ER7</ownerDesignName>
-<engineerTo>
-<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
-</engineerTo>
-<referedAttribute>D99BC882-2C4E-4025-7088-5C993071C758</referedAttribute>
+<referedAttribute>96F72917-281F-88C8-5C23-4D50B153636B</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="17E10DEC-6B73-8C31-BB60-894C143EC8DD" name="Miembro PK">
+<identifier id="093EC8FE-C43D-7D0B-0EC4-98075A6E5794" name="Inventario_tienda PK">
 <createdBy>sebav</createdBy>
-<createdTime>2025-05-10 23:57:09 UTC</createdTime>
+<createdTime>2025-05-11 04:55:29 UTC</createdTime>
 <ownerDesignName>ER7</ownerDesignName>
 <engineerTo>
 <item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>866FC96B-1226-9CD8-21A7-92ACFC625F44</attributeRef>
+<attributeRef>D862ADEE-8251-D853-8A49-0A33AB415290</attributeRef>
+<attributeRef>045E569D-D4DB-54B1-2F98-22B4FCAE7FFE</attributeRef>
+<attributeRef>C71D1AA7-DA02-59EC-5B23-DAD17D76BF17</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

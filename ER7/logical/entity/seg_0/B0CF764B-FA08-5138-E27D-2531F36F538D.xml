@@ -104,6 +104,18 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="RIF" id="011FB427-0E9B-6FCC-B000-2FD1D88C814D">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 01:28:20 UTC</createdTime>
+<generatorID>EA9A96DA-DF3F-6DD2-A531-5753FC270157</generatorID>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<referedAttribute>25B61E9F-496E-1A55-C02D-709D78853576</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="3735B52D-F69A-F808-6BAE-5997DB15DB0D" name="Teléfono PK">

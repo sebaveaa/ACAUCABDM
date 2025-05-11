@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Boleto" directorySegmentName="seg_0" id="4A0262E3-DAA9-B76F-F591-01906628CB59">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 03:13:18 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<sourcePk>D680811E-F2DF-70D3-0CED-E27B4DF6C69D</sourcePk>
+<arc>B1CE47A7-8C94-A677-754D-8C365BB63B19</arc>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F7E2BBEF-8785-B5C9-5C34-A4443ED32101</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>2C9912EC-35BF-5803-6E81-F699A4947A66</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
