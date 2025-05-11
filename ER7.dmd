@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ER7" id="2D9BB47B-33F7-8AB8-4F48-B601A8260F01" version="3.5">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 20:19:34 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2D9BB47B-33F7-8AB8-4F48-B601A8260F01</designId>
+</OSDM_Design>
