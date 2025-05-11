@@ -95,6 +95,18 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Clave5" id="2A2540EA-518C-5521-E559-1BCF68953AA1">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 05:47:45 UTC</createdTime>
+<generatorID>72576116-2E08-3400-DDC0-819F0197CE77</generatorID>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<referedAttribute>67F30B0A-2AB1-9267-8365-00F056F0169D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="F8EC4A26-6BA4-354B-DE11-370FF0B9AC44" name="Pago PK">
