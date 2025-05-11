@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="49298CB8-2677-BFA1-A4E7-861BD4669AC1" name="Rol_Pri">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 21:35:33 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Fecha" id="C608B7F3-564C-060A-A47B-5CCC3CA97329">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 21:35:51 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Clave" id="F55F8AA6-07EB-0DCE-8A23-C5550064A772">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 21:37:00 UTC</createdTime>
+<generatorID>AB7AE909-745A-0FA2-2D51-F4D071827DCB</generatorID>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<referedAttribute>DA7E6E70-26A5-64FF-4370-3EE5C7D695FD</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Clave1" id="B206D45C-F614-636A-6781-5B897308CEC9">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 21:37:53 UTC</createdTime>
+<generatorID>94EE05FB-705B-3D6F-0357-BFF32C5AE72A</generatorID>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<referedAttribute>72B862A6-C343-8A76-81B3-5FBAD8B8D509</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D26A0BE2-0F9E-D7E0-79BF-F08FC2E57A1D" name="Rol_Pri PK">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 21:40:09 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B206D45C-F614-636A-6781-5B897308CEC9</attributeRef>
+<attributeRef>F55F8AA6-07EB-0DCE-8A23-C5550064A772</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

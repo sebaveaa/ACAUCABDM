@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="56A50A8C-ADBB-4A35-D2EA-0DD8DF27927E" name="Miembro">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 23:38:00 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RIF" id="25B61E9F-496E-1A55-C02D-709D78853576">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 23:38:24 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Razón_social" id="FA04F1AB-B727-8E8D-BD7F-972105DE40AD">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 23:45:04 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Denominación_comercial" id="31A9DE15-5F03-5EC9-427A-B770EAD72B5E">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 23:45:26 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dirección_fiscal" id="812E9E50-459A-6BB6-91F7-901DAABCDA4D">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 23:45:50 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dirección_fisica" id="12B2CC5D-27CE-F01C-AB55-353744AE889F">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 23:46:14 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Clave" id="88AE9FD1-C3AD-1D13-E3D7-489719D5BB84">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 23:55:36 UTC</createdTime>
+<generatorID>1C944FBE-57D1-BC19-2E14-49BCE0105E8A</generatorID>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<referedAttribute>911A9DDA-B208-B9C0-8AA1-20AD2D0ACD64</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Clave1" id="C09C7F66-79D8-F437-CEE0-90F50D60ABA1">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 23:55:50 UTC</createdTime>
+<generatorID>C187E4EF-93B2-8CB1-F63A-729420B59876</generatorID>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<referedAttribute>911A9DDA-B208-B9C0-8AA1-20AD2D0ACD64</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1CE396E7-36A9-2A39-3F8E-FC533F9F0F04" name="Miembro PK">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 23:45:01 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>25B61E9F-496E-1A55-C02D-709D78853576</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

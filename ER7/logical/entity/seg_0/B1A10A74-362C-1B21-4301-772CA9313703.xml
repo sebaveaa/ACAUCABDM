@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B1A10A74-362C-1B21-4301-772CA9313703" name="Cliente">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 23:57:09 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Clave" id="866FC96B-1226-9CD8-21A7-92ACFC625F44">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 23:57:09 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RIF" id="E2889F78-6D7C-5365-6FB7-8FD3A8471318">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 00:08:15 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Puntos_acumulados" id="9607DDC2-0C28-28EF-6559-F8AC6427A3BB">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 00:16:14 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Clave1" id="5B8B210E-FEF2-06A2-9B12-DB936866D13D">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 00:26:04 UTC</createdTime>
+<generatorID>F98F6709-870D-A859-26B6-1E54430CA9EC</generatorID>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<referedAttribute>2790B237-5C7F-E0AC-02E8-A462783D9C4E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="17E10DEC-6B73-8C31-BB60-894C143EC8DD" name="Miembro PK">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 23:57:09 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>866FC96B-1226-9CD8-21A7-92ACFC625F44</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C772DF69-EE6C-A235-BB7C-1D4277C3887A" name="Natural">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 00:04:42 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>B1A10A74-362C-1B21-4301-772CA9313703</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CI" id="9E80BD77-3099-E1CB-F933-893070D5249E">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 00:09:17 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Primer_nombre" id="007162D1-4551-2980-996B-EBDF5C1FDD69">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 00:09:26 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Segundo_nombre" id="C0F8A382-C022-113B-53F6-F1AB9C20D404">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 00:09:52 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Primer_apellido" id="1A65028F-A9D6-C952-A3A9-E24FE06ECB5B">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 00:09:41 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Segundo_apellido" id="6987EA40-7123-FBE5-D9A2-BE818B833BB2">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 00:10:10 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dirección_habitación" id="5F89FB91-AD7C-7351-1C92-72EE0B992CE1">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 00:10:45 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Clave" id="40B27311-FF48-01C8-7685-7466F2DA5E61">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 01:02:17 UTC</createdTime>
+<generatorID>82E3A54F-D522-CC72-25E5-EF1A054BA623</generatorID>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<referedAttribute>911A9DDA-B208-B9C0-8AA1-20AD2D0ACD64</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Clave1" id="E82BA816-C23F-909D-3151-FCEAB4D1CD8D">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 01:02:40 UTC</createdTime>
+<generatorID>68F13434-0D1D-2B86-3B4D-96F91CF2E10E</generatorID>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<referedAttribute>911A9DDA-B208-B9C0-8AA1-20AD2D0ACD64</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

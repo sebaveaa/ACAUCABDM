@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ubica" directorySegmentName="seg_0" id="C187E4EF-93B2-8CB1-F63A-729420B59876">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 23:55:46 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<sourcePk>1CE396E7-36A9-2A39-3F8E-FC533F9F0F04</sourcePk>
+<targetPk>4E5A4364-9DF1-BB9A-F917-748EB9E7E5CF</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>56A50A8C-ADBB-4A35-D2EA-0DD8DF27927E</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>91BFCBA5-1DB7-AB7F-1634-DCD9975BB3EB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

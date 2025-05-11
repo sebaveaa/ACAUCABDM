@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="54B439CF-67FF-B4D8-4134-ADA0482E38CA" name="Emp_Ben">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 22:16:55 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Monto" id="6F2CBA3B-98D4-9652-6227-260340CB2EAD">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 22:17:17 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Clave" id="9A28A1F3-053C-C442-23AB-7E37153DA65C">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 22:18:16 UTC</createdTime>
+<generatorID>0167B00D-6132-933D-A240-DD6E67A04759</generatorID>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<referedAttribute>DD7E3C56-2DA0-2525-FF5E-E6339BCB1A28</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Clave1" id="71404BDF-EA3D-299A-DEFF-A76142580A62">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 22:18:31 UTC</createdTime>
+<generatorID>43233A88-956B-1E7C-AE2D-B286E044EB97</generatorID>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<referedAttribute>B5E7B489-CAD1-60DE-3A66-2FABF7C64600</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CI" id="BDE8A710-1BA1-A92F-B6FF-250E974B8993">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 22:18:31 UTC</createdTime>
+<generatorID>43233A88-956B-1E7C-AE2D-B286E044EB97</generatorID>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<referedAttribute>205E5052-77A1-E679-932A-5037DBB30644</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8E7CF596-9400-B85A-BDCE-918A8318D514" name="Emp_Ben PK">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 22:18:26 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9A28A1F3-053C-C442-23AB-7E37153DA65C</attributeRef>
+<attributeRef>71404BDF-EA3D-299A-DEFF-A76142580A62</attributeRef>
+<attributeRef>BDE8A710-1BA1-A92F-B6FF-250E974B8993</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

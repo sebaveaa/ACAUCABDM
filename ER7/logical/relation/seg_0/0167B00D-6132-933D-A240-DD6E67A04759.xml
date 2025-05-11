@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="brinda" directorySegmentName="seg_0" id="0167B00D-6132-933D-A240-DD6E67A04759">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 22:18:16 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<sourcePk>28E1AE80-7354-55B0-E3D3-6B24ADBE5BAE</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>79F2E23D-E522-935E-DC44-195DA2D04BAC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>54B439CF-67FF-B4D8-4134-ADA0482E38CA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

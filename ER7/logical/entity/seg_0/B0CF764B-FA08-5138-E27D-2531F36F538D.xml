@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B0CF764B-FA08-5138-E27D-2531F36F538D" name="Teléfono">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 22:21:05 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Clave" id="4ACE7B66-3460-BF1C-390B-819141B9DF5B">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 22:21:22 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Código_area" id="227BCD50-587B-AEE4-AE90-D55A35E7D781">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 22:59:19 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Número" id="C3E6EDB6-E451-393D-0D83-2FBD0230569B">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 22:59:45 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Extensión" id="0208B40D-9610-7CE5-4C08-8D28979F48F9">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 23:03:47 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Clave1" id="E7D48927-C33E-0ECE-FABF-BF3D6555B173">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 23:00:30 UTC</createdTime>
+<generatorID>6BE1A028-F72C-F526-3777-9E47377B993F</generatorID>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<referedAttribute>B5E7B489-CAD1-60DE-3A66-2FABF7C64600</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CI" id="4533A9E9-F3DF-97FB-1538-5DA77E1791FE">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 23:00:30 UTC</createdTime>
+<generatorID>6BE1A028-F72C-F526-3777-9E47377B993F</generatorID>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<referedAttribute>205E5052-77A1-E679-932A-5037DBB30644</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Clave2" id="FC42C64C-A893-7681-2DBD-AED3358092AA">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 00:27:13 UTC</createdTime>
+<generatorID>F6634787-22BF-AFFD-723E-DC47DFFE35A8</generatorID>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<referedAttribute>866FC96B-1226-9CD8-21A7-92ACFC625F44</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Clave3" id="13E19C69-054A-AE14-94F7-43A02056A60B">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 00:53:38 UTC</createdTime>
+<generatorID>6F2155A2-DE36-2E02-BC62-27B23900D1FB</generatorID>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<referedAttribute>0C857D3C-646F-40FA-54A2-BA11979DAC6F</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3735B52D-F69A-F808-6BAE-5997DB15DB0D" name="Teléfono PK">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 22:59:42 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4ACE7B66-3460-BF1C-390B-819141B9DF5B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

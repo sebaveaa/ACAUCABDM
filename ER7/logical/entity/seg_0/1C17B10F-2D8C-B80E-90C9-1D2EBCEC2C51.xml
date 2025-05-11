@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1C17B10F-2D8C-B80E-90C9-1D2EBCEC2C51" name="Vacacion">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 21:53:19 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Clave" id="68092099-61C9-F405-ECA9-85DF26227202">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 21:53:37 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cantidad_dias" id="023B8E88-7745-67C0-83ED-78BE67A915B4">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 21:53:44 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Clave1" id="7BA9B9B1-B7D5-18E0-6A70-65DF9E2E789C">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 21:59:03 UTC</createdTime>
+<generatorID>B8816172-4190-5D82-F9D0-183E9B5D0788</generatorID>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<referedAttribute>811F13F0-C93F-FC09-A23F-EDCD345E9A85</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Clave3" id="1AFD04AC-7420-E960-58AB-6BC6B043AD02">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 22:08:24 UTC</createdTime>
+<generatorID>B8816172-4190-5D82-F9D0-183E9B5D0788</generatorID>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<referedAttribute>96FC84AB-93E5-FBBA-6CD3-7112F0CF3C27</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CI" id="CEC17C88-ABC0-8963-C896-93306FC4497C">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 22:08:24 UTC</createdTime>
+<generatorID>B8816172-4190-5D82-F9D0-183E9B5D0788</generatorID>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<referedAttribute>63340FC8-23F9-DD75-4C89-76A530BC4BDB</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7E3EBC11-5E50-D3F8-D659-64E0280C6997" name="Vacacion PK">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 21:53:43 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>68092099-61C9-F405-ECA9-85DF26227202</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E8DBBB03-DD40-615B-4955-3933F55FA01E" name="Jurídico">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 00:04:57 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>B1A10A74-362C-1B21-4301-772CA9313703</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Razón_social" id="2E3F3B61-7EA2-6579-51A2-83D78B8C26F4">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 00:12:40 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Denominación_comercial" id="E03FF79E-131D-94BA-FBE8-FDBF975580FD">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 00:13:02 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Url_pagina_web" id="FC583924-4660-63DD-D4F2-9B285551C38E">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 00:13:31 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Capital_disponible" id="30227A9B-0D50-D0C5-E6BF-DBABBD5AEFC2">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 00:14:03 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dirección_fiscal" id="20DF03B8-E479-3605-DCF3-FF1849D2BAC1">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 00:14:15 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dirección_física" id="DE141950-5C55-B316-8F0A-16BA033DB89C">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 00:14:42 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Clave" id="17EB0830-5BAB-808E-D5B9-9A03BF7BE3DC">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 01:02:50 UTC</createdTime>
+<generatorID>E3321912-8480-A328-3710-8023563A5FE0</generatorID>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<referedAttribute>911A9DDA-B208-B9C0-8AA1-20AD2D0ACD64</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

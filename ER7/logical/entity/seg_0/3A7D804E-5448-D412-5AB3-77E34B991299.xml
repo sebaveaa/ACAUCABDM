@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A7D804E-5448-D412-5AB3-77E34B991299" name="Usuario">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 21:42:10 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Clave" id="D99BC882-2C4E-4025-7088-5C993071C758">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 21:42:18 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="username" id="B7CDB794-A031-0F22-C0C1-4AEDDA9257E3">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 21:42:26 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="constraseña" id="5A48912B-82F9-84D5-76DC-81560682141D">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 21:42:36 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Clave1" id="3FBA168F-96A7-28CB-B039-0026DA0C7512">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 21:43:22 UTC</createdTime>
+<generatorID>B95A144B-B2B8-F7FC-3CAB-7138AFE7AF05</generatorID>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<referedAttribute>72B862A6-C343-8A76-81B3-5FBAD8B8D509</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="896C1699-7AB2-4253-3DBA-D44FE5C0E748" name="Usuario PK">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 21:42:22 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D99BC882-2C4E-4025-7088-5C993071C758</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

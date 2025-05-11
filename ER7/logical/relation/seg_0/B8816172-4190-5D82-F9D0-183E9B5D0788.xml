@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="asigna" directorySegmentName="seg_0" id="B8816172-4190-5D82-F9D0-183E9B5D0788">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 21:59:03 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<sourcePk>89978F39-F4EC-CC48-2463-4560F5ED3F24</sourcePk>
+<targetPk>7E3EBC11-5E50-D3F8-D659-64E0280C6997</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3C1DF895-1332-C312-7B6D-DDF85D5463A0</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>1C17B10F-2D8C-B80E-90C9-1D2EBCEC2C51</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

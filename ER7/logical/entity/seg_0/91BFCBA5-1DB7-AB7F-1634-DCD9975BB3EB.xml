@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="91BFCBA5-1DB7-AB7F-1634-DCD9975BB3EB" name="Lugar">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 23:46:39 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Clave" id="911A9DDA-B208-B9C0-8AA1-20AD2D0ACD64">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 23:52:10 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="FF824878-00D1-D44A-C075-1CC42C02844B">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 23:52:23 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo" id="5AD4B4A6-03B0-5AFB-556E-5EE49F771C9F">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 23:52:31 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Clave1" id="0BAACAB3-8C64-00DA-84F0-32B9F84209A2">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 23:53:04 UTC</createdTime>
+<generatorID>B2FE5729-D5BE-C2FB-8315-2DACBD0A521D</generatorID>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>911A9DDA-B208-B9C0-8AA1-20AD2D0ACD64</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4E5A4364-9DF1-BB9A-F917-748EB9E7E5CF" name="Lugar PK">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-10 23:52:16 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>911A9DDA-B208-B9C0-8AA1-20AD2D0ACD64</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
