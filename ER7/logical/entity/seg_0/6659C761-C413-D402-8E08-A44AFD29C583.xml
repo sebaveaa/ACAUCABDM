@@ -45,6 +45,16 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="RIF_empresa" id="1B93FD4C-59E0-653B-AA10-8CBD58D8D3D9">
+<createdBy>sebav</createdBy>
+<createdTime>2025-05-11 15:54:41 UTC</createdTime>
+<ownerDesignName>ER7</ownerDesignName>
+<engineerTo>
+<item key="310C8F6A-E6BF-DBE6-9E5B-A1D92908EB34" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="4F4E15A6-011F-DA12-5815-36CD9054E1A6" name="Tienda_física PK">
